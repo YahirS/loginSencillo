@@ -93,6 +93,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                       labelText: 'Nombre de usuario',
                     ),
                   ),
+                  SizedBox(height: 12.0),
                   TextField(
                     decoration: InputDecoration(
                       filled: true,
