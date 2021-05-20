@@ -84,23 +84,20 @@ class _IngresoSistemaState extends State<IngresoSistema> {
               ],
             ),
             if (!acceso)
-              
-                Column(
-                  children: <Widget>[
-                  TextField(
-                    decoration: InputDecoration(
-                      filled: true,
-                      // fillColor: Colors.amber,
-                      labelText: 'Username',
-                    ),
+              Column(
+                children: <Widget>[
+                TextField(
+                  decoration: InputDecoration(
+                    filled: true,
+                    // fillColor: Colors.amber,
+                    labelText: 'Username',
                   ),
-                 ] // fin de widget
-                ) // fin columna
-               //fin de if verdade
-            else
-             //fin de else falsi
+                ),
+              ],// fin de widget
+              ) // fin columna
+            //fin de if verdade
           ], // fin de children widget
-        ),// fin de body
+        ), // fin de body
       ), // fin de Safearea
     ); // fin de Scaffold
   } //fin de widget
