@@ -11,7 +11,7 @@ class MiLoginApp extends StatelessWidget {
       title: 'App Master Sanchez',
       theme: ThemeData(
         brightness: Brightness.light,
-        primarySwatch: Colors.yellowAccent[400],
+        primarySwatch: Colors.yellow,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       darkTheme: ThemeData(
