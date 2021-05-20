@@ -89,17 +89,17 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                   TextField(
                     decoration: InputDecoration(
                       filled: true,
-                      // fillColor: Colors.amber,
+                       fillColor: Colors.amber,
                       labelText: 'Nombre de usuario',
                     ),
                   ),
                   SizedBox(height: 12.0),
                   TextField(
                     decoration: InputDecoration(
-                      //filled: true,
+                      filled: true,
                       labelText: 'Contraseña',
                     ),
-                    obscureText: true,
+                    //obscureText: true,
                   ),
                   Padding(
                     padding: const EdgeInsets.only(top: 18.0),
