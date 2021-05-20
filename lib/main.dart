@@ -76,11 +76,11 @@ class _IngresoSistemaState extends State<IngresoSistema> {
         child: ListView(
           padding: EdgeInsets.symmetric(horizontal: 24.0),
           children: <Widget>[
-            SizedBox(height: 10.0),
+            SizedBox(height: 80.0),
             Column(
               children: <Widget>[
                 Image.asset('assets/image16.jpg'),
-                SizedBox(height: 12.0),
+                SizedBox(height: 16.0),
               ],
             ),
             if (!acceso)
