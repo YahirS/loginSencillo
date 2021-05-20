@@ -89,7 +89,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                   TextField(
                     decoration: InputDecoration(
                       filled: true,
-                      fillColor: Colors.orange[300],
+                      fillColor: Colors.pink,
                       labelText: 'Nombre de usuario',
                     ),
                   ),
@@ -97,7 +97,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                   TextField(
                     decoration: InputDecoration(
                       filled: true,
-                      fillColor: Colors.orange[300],
+                      fillColor: Colors.pink,
                       labelText: 'Contraseña',
                     ),
                     obscureText: true,
