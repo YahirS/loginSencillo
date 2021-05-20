@@ -97,6 +97,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                   TextField(
                     decoration: InputDecoration(
                       filled: true,
+                      fillColor: Colors.amber[100],
                       labelText: 'Contraseña',
                     ),
                     //obscureText: true,
