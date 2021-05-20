@@ -84,7 +84,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
               ],
             ),
             if (!acceso)
-              {
+              
                 Column(
                   children: <Widget>[
                   TextField(
@@ -96,11 +96,11 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                   ),
                  ] // fin de widget
                 ) // fin columna
-              } //fin de if verdade
+               //fin de if verdade
             else
-              {} //fin de else falsi
+             //fin de else falsi
           ], // fin de children widget
-        ),
+        ),// fin de body
       ), // fin de Safearea
     ); // fin de Scaffold
   } //fin de widget
