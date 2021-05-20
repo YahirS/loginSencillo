@@ -130,6 +130,23 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                 ], // fin de widget
               ) // fin columna
             //fin de if verdade
+            else 
+            Center(
+                child: Column(
+                  children: <Widget>[
+                    Text('YAY, Estoy ingresado'),
+                    RaisedButton(
+                      elevation: 20.0,
+                      child: Text('Cerrar sesion'),
+                      onPressed: () {
+                        setState(() {
+                          acceso = false;
+                        });
+                      },
+                    )
+                  ],// fin de ninos widget
+                ),
+              )//fin de if falso
           ], // fin de children widget
         ), // fin de body
       ), // fin de Safearea
