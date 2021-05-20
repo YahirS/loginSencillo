@@ -96,7 +96,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                   SizedBox(height: 12.0),
                   TextField(
                     decoration: InputDecoration(
-                      filled: true,
+                      //filled: true,
                       labelText: 'Contraseña',
                     ),
                     obscureText: true,
@@ -116,7 +116,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                         ),
                         RaisedButton(
                           child: Text(
-                            'NEXT2',
+                            'SIGUIENTE',
                           ),
                           onPressed: () {
                             setState(() {
