@@ -97,10 +97,10 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                   TextField(
                     decoration: InputDecoration(
                       filled: true,
-                      fillColor: Colors.amber[100],
+                      fillColor: Colors.pink[100],
                       labelText: 'Contraseña',
                     ),
-                    //obscureText: true,
+                    obscureText: true,
                   ),
                   Padding(
                     padding: const EdgeInsets.only(top: 18.0),
