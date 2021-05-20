@@ -30,7 +30,7 @@ class IngresoSistema extends StatefulWidget {
 } // fin class IngresoSistema
 
 class _IngresoSistemaState extends State<IngresoSistema> {
-  bool isLogin = false;
+  bool acceso = false;
 
   @override
   void initState() {
@@ -83,6 +83,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                 SizedBox(height: 16.0),
               ],
             ),
+            //if (acceso)
           ], // fin de children widget
         ),
       ), // fin de Safearea
