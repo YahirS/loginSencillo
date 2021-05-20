@@ -16,7 +16,7 @@ class MiLoginApp extends StatelessWidget {
       ),
       darkTheme: ThemeData(
         brightness: Brightness.dark,
-        primarySwatch: Colors.black,
+        primarySwatch: Colors.white,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: IngresoSistema(),
