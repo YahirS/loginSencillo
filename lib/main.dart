@@ -89,7 +89,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                   TextField(
                     decoration: InputDecoration(
                       filled: true,
-                       fillColor: Colors.amber[100],
+                      fillColor: Colors.orange[300],
                       labelText: 'Nombre de usuario',
                     ),
                   ),
@@ -97,7 +97,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                   TextField(
                     decoration: InputDecoration(
                       filled: true,
-                      fillColor: Colors.pink[100],
+                      fillColor: Colors.orange[300],
                       labelText: 'Contraseña',
                     ),
                     obscureText: true,
@@ -131,8 +131,8 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                 ], // fin de widget
               ) // fin columna
             //fin de if verdade
-            else 
-            Center(
+            else
+              Center(
                 child: Column(
                   children: <Widget>[
                     Text('YAY, Estoy ingresado'),
@@ -145,9 +145,9 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                         });
                       },
                     )
-                  ],// fin de ninos widget
+                  ], // fin de ninos widget
                 ),
-              )//fin de if falso
+              ) //fin de if falso
           ], // fin de children widget
         ), // fin de body
       ), // fin de Safearea
