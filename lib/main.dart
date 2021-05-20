@@ -76,7 +76,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
         child: ListView(
           padding: EdgeInsets.symmetric(horizontal: 24.0),
           children: <Widget>[
-            SizedBox(height: 80.0),
+            SizedBox(height: 40.0),
             Column(
               children: <Widget>[
                 Image.asset('assets/image16.jpg'),
@@ -86,14 +86,14 @@ class _IngresoSistemaState extends State<IngresoSistema> {
             if (!acceso)
               Column(
                 children: <Widget>[
-                TextField(
-                  decoration: InputDecoration(
-                    filled: true,
-                    // fillColor: Colors.amber,
-                    labelText: 'Username',
+                  TextField(
+                    decoration: InputDecoration(
+                      filled: true,
+                      // fillColor: Colors.amber,
+                      labelText: 'Username',
+                    ),
                   ),
-                ),
-              ],// fin de widget
+                ], // fin de widget
               ) // fin columna
             //fin de if verdade
           ], // fin de children widget
