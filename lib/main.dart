@@ -74,7 +74,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
       ), //fin de appbar
       body: SafeArea(
         child: ListView(
-          padding: EdgeInsets.symmetric(horizontal: 24.0),
+          padding: EdgeInsets.symmetric(horizontal: 10.0),
           children: <Widget>[
             SizedBox(height: 10.0),
             Column(
