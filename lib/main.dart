@@ -16,7 +16,7 @@ class MiLoginApp extends StatelessWidget {
       ),
       darkTheme: ThemeData(
         brightness: Brightness.dark,
-        primarySwatch: Colors.orange,
+        primarySwatch: Colors.yellow,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: IngresoSistema(),
@@ -89,7 +89,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                   TextField(
                     decoration: InputDecoration(
                       filled: true,
-                      fillColor: Colors.yellow,
+                      fillColor: Colors.greenAccent,
                       labelText: 'Nombre de usuario',
                     ),
                   ),
@@ -97,7 +97,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                   TextField(
                     decoration: InputDecoration(
                       filled: true,
-                      fillColor: Colors.black,
+                      fillColor: Colors.greenAccent,
                       labelText: 'Contraseña',
                     ),
                     obscureText: true,
