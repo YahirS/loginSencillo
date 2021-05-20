@@ -80,7 +80,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
             Column(
               children: <Widget>[
                 Image.asset('assets/image16.jpg'),
-                SizedBox(height: 12.0),
+                SizedBox(height: 5.0),
               ],
             ),
             if (!acceso)
@@ -110,8 +110,9 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                           child: Text('CANCEL'),
                           onPressed: () {
                             setState(() {
-                              isLogin = false;
-                            });
+                              acceso = false;
+                            }
+                            );
                           },
                         ),
                         RaisedButton(
