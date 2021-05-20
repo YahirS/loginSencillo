@@ -76,7 +76,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
         child: ListView(
           padding: EdgeInsets.symmetric(horizontal: 24.0),
           children: <Widget>[
-            SizedBox(height: 40.0),
+            SizedBox(height: 10.0),
             Column(
               children: <Widget>[
                 Image.asset('assets/image16.jpg'),
@@ -111,8 +111,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                           onPressed: () {
                             setState(() {
                               acceso = false;
-                            }
-                            );
+                            });
                           },
                         ),
                         RaisedButton(
@@ -121,7 +120,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                           ),
                           onPressed: () {
                             setState(() {
-                              acceso= true;
+                              acceso = true;
                             });
                           },
                         ), // fin de RaisedButton
