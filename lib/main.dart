@@ -121,7 +121,7 @@ class _IngresoSistemaState extends State<IngresoSistema> {
                           ),
                           onPressed: () {
                             setState(() {
-                              isLogin = true;
+                              acceso= true;
                             });
                           },
                         ), // fin de RaisedButton
